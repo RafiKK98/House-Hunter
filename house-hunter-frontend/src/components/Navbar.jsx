@@ -48,7 +48,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <button className="btn btn-accent" onClick={logOut}>Button</button>
+                    <button className="btn btn-accent" onClick={logOut}>Log out</button>
                 </div>
             </nav>
         </header>

@@ -30,6 +30,10 @@ app.use('/api/houseowners', houseOwnerRoutes);
 app.use('/api/houserenters', houseRenterRoutes);
 app.use('/api/houses', houseRoutes);
 
+app.get('/', (req, res) => {
+    console.log('Server up and running!');
+})
+
 app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`);
 });
